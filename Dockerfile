@@ -1,4 +1,4 @@
-FROM jupyter/minimal-notebook
+FROM jupyter/minimal-notebook:hub-3.0.0
 
 # Replace all favicons with Nectar logo and install our theme extension
 COPY favicon.ico /tmp
